@@ -21,3 +21,14 @@ bom
 * gt2 pulley wheel
 
 * linear rail mgn15h https://www.amazon.com/dp/B07QZ25F53
+
+
+grbl stuff
+
+C:\Users\anand\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17\etc\avrdude.conf
+
+ avrdude -p m328p -D -PCOM4 -c arduino -b 115200 -U flash:w:grbl_v1.1h.20190825.hex -C C:\Users\anand\AppData\Local\Arduino15\packages\arduino\tools\avrdude\6.3.0-arduino17\etc\avrdude.conf
+or use xloader2
+
+grbl settings 
+https://github-wiki-see.page/m/gnea/grbl/wiki/Grbl-v1.1-Configuration
