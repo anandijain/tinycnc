@@ -37,3 +37,4 @@ https://github-wiki-see.page/m/gnea/grbl/wiki/Grbl-v1.1-Configuration
 todo:
 * microstepping and try the quieter drivers
 * add little metal clamps to hold paper down instead of using tape 
+* make the pen holder even longer (closer to ground to improve deflection)
