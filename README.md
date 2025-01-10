@@ -1,10 +1,8 @@
 # tinycnc
 
-ITS A PEN PLOTTER NOW 
 
-tiniest cnc. starting off 3 axis no spindle - manually attach a dremel
-
-eventually use a 775 
+this has all the designs:
+https://cad.onshape.com/documents/f0edc675ec6e7dd579a916ba/w/8ae7a773a962de3b1e73e6d8/e/a93e4edb635fdcd076b4d8c3 
 
 
 bom
@@ -38,3 +36,4 @@ todo:
 * microstepping and try the quieter drivers
 * add little metal clamps to hold paper down instead of using tape 
 * make the pen holder even longer (closer to ground to improve deflection)
+* use a 775 spindle
