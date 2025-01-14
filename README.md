@@ -34,6 +34,12 @@ https://github-wiki-see.page/m/gnea/grbl/wiki/Grbl-v1.1-Configuration
 
 todo:
 * microstepping and try the quieter drivers
-* add little metal clamps to hold paper down instead of using tape 
-* make the pen holder even longer (closer to ground to improve deflection)
+* redesign the rail holder parts so stepperx is on other side, the screws can actually be put in, and the rail actually gets fully surrounded, on the idler side, make a slotted section to more precisely control belt tension, also surround rail and make more rigid and so screws can actually be installed 
+* try 2 sets of linear bearings on Y see if deflection improves 
+* try to take a short video of it drawing using a rpi camera, I'm down to just hold it cuz I don't have a long enough cable
+* far out but could use the z axis to control rolling paper across  
 * use a 775 spindle
+
+done:
+* add little clamps to hold paper down instead of using tape 
+* make the pen holder even longer (closer to ground to improve deflection)
