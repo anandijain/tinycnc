@@ -31,15 +31,29 @@ or use xloader2
 grbl settings 
 https://github-wiki-see.page/m/gnea/grbl/wiki/Grbl-v1.1-Configuration
 
+todo:
+
+done:
+
 
 todo:
+* fix bom
 * microstepping and try the quieter drivers
-* redesign the rail holder parts so stepperx is on other side, the screws can actually be put in, and the rail actually gets fully surrounded, on the idler side, make a slotted section to more precisely control belt tension, also surround rail and make more rigid and so screws can actually be installed 
-* try 2 sets of linear bearings on Y see if deflection improves 
-* try to take a short video of it drawing using a rpi camera, I'm down to just hold it cuz I don't have a long enough cable
+* try to take a short video of it drawing using a rpi camera or gopro, I'm down to just hold it cuz I don't have a long enough cable
 * far out but could use the z axis to control rolling paper across  
 * use a 775 spindle
 
 done:
 * add little clamps to hold paper down instead of using tape 
 * make the pen holder even longer (closer to ground to improve deflection)
+* finish assembly and hardware for the whole design in onshape 
+* fix tensioner to not limit travel in x 
+* minimize threaded insert usage and opt for tapping (particularly for thru holes, threaded inserts in blind is ok)
+* instead of slotted nut put a cbore under rail, because the support removal for slot is a nightmare
+* also for the cbore on the bolt that goes thru rail need to increase diam
+* cbore on the bottom nuts for x axis motor and currently they are super inaccessible 
+* pegs for belt holder are too weak and can easily break (3mm to 4mm)
+* slot for belt tensioning is UX nightmare terrible mechanism 
+* try 2 sets of linear bearings on Y see if deflection improves 
+* redesign the rail holder parts so stepperx is on other side, the screws can actually be put in, and the rail actually gets fully surrounded, on the idler side, make a slotted section to more precisely control belt tension, also surround rail and make more rigid and so screws can actually be installed 
+
