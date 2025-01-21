@@ -37,10 +37,23 @@ done:
 
 
 todo:
-* fix bom
+* fix bom (30 mins)
 * microstepping and try the quieter drivers
 * try to take a short video of it drawing using a rpi camera or gopro, I'm down to just hold it cuz I don't have a long enough cable
+* replace xidler with the new tensioner
+* load cell on pen, have control over force applied to page
+* beam bending physics, work out the expected deflection given the mass of the z axis 
+* make the pen holder way longer - requires making the z wider so that the pen can be taken out upwards
+* redesign it to be a supported gantry
+    * for the gantry, do the physics to see how much longer the y axis can be made 
+* look at how bed leveling works on a 3d printer, it would be cool to do that, but it would mainly be measuring deflection since that is way more of a change than how flat the wood board is
+* find out what it would take to do closed loop with angular encoders
+* improve the testing situation- it would be nice to log information on the page printed about what type of pen- what grbl settings and what cad settings were used to produce an image
+* have some actual gcode written tests, like a bunch of lines spaced 1mm apart, and a big circle, stuff like that
+* art- try a really thick pen (requires cad change) and try to draw some cool graffiti 
+* think about tool changing 
 * far out but could use the z axis to control rolling paper across  
+* mount a time of flight on the z axis and do bed leveling or rather more a measurement of deflection
 * use a 775 spindle
 
 done:
