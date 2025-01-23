@@ -55,6 +55,10 @@ todo:
 * download all the timelapses on the SD card of printer. good for the video 
 * finally make a pcb to wire this  thing, basically take 12v 5a barrel with a pretty good 5v regulator. then give power to shield but return the servo data pin.
     - then to unplug, just remove the barrel. no more 2 wall wart nonsense
+* fix the limit switches to not be so dang loud 
+* https://developers.cloudflare.com/pages/framework-guides/deploy-anything/
+* get a metric hex bit set for a drill so assembly doesnt suck so much 
+* board housing 
 * use a 775 spindle
 
 
