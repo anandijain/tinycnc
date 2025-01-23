@@ -31,30 +31,37 @@ or use xloader2
 grbl settings 
 https://github-wiki-see.page/m/gnea/grbl/wiki/Grbl-v1.1-Configuration
 
-todo:
+1/21/25
 
-done:
-
+* gopro mount on z 
+* redesign z to be rack and pinion + spring 
+* cloudflare site setup
 
 todo:
 * fix bom (30 mins)
-* microstepping and try the quieter drivers
 * try to take a short video of it drawing using a rpi camera or gopro, I'm down to just hold it cuz I don't have a long enough cable
 * replace xidler with the new tensioner
+* microstepping
 * load cell on pen, have control over force applied to page
-* beam bending physics, work out the expected deflection given the mass of the z axis 
-* make the pen holder way longer - requires making the z wider so that the pen can be taken out upwards
-* redesign it to be a supported gantry
-    * for the gantry, do the physics to see how much longer the y axis can be made 
+* for the supported gantry, do the physics to see how much longer the y axis can be made 
 * look at how bed leveling works on a 3d printer, it would be cool to do that, but it would mainly be measuring deflection since that is way more of a change than how flat the wood board is
 * find out what it would take to do closed loop with angular encoders
 * improve the testing situation- it would be nice to log information on the page printed about what type of pen- what grbl settings and what cad settings were used to produce an image
 * have some actual gcode written tests, like a bunch of lines spaced 1mm apart, and a big circle, stuff like that
 * art- try a really thick pen (requires cad change) and try to draw some cool graffiti 
-* think about tool changing 
-* far out but could use the z axis to control rolling paper across  
-* mount a time of flight on the z axis and do bed leveling or rather more a measurement of deflection
+* CAD tool changer
+* far out but could use the z axis to control rolling paper across 
+* redesign to use 3 rails (2 500mm ones) increases the print area  
+* download all the timelapses on the SD card of printer. good for the video 
+* finally make a pcb to wire this  thing, basically take 12v 5a barrel with a pretty good 5v regulator. then give power to shield but return the servo data pin.
+    - then to unplug, just remove the barrel. no more 2 wall wart nonsense
 * use a 775 spindle
+
+
+shelved: 
+* try the quieter drivers (the pinout is different :/ )
+* mount a time of flight on the z axis and do bed leveling or rather more a measurement of deflection 
+    - the precision of the TOF is 1mm so the picture wouldnt look that cool not worth 
 
 done:
 * add little clamps to hold paper down instead of using tape 
@@ -69,4 +76,8 @@ done:
 * slot for belt tensioning is UX nightmare terrible mechanism 
 * try 2 sets of linear bearings on Y see if deflection improves 
 * redesign the rail holder parts so stepperx is on other side, the screws can actually be put in, and the rail actually gets fully surrounded, on the idler side, make a slotted section to more precisely control belt tension, also surround rail and make more rigid and so screws can actually be installed 
-
+* cad changes for pen to be removable from the top 
+* tof mount on z 
+* redesign it to be a supported gantry
+* beam bending physics, work out the expected deflection given the mass of the z axis 
+* make the pen holder way longer - requires making the z wider so that the pen can be taken out upwards
