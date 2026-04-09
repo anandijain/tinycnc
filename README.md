@@ -1,8 +1,13 @@
 # tinycnc
+a belt-driven gantry-style cnc pen plotter running GRBL
 
+[CAD onshape v1](https://cad.onshape.com/documents/f0edc675ec6e7dd579a916ba/w/8ae7a773a962de3b1e73e6d8/e/3e3c9c496871ec22171a7cd4)
 
-this has all the designs:
-https://cad.onshape.com/documents/f0edc675ec6e7dd579a916ba/w/8ae7a773a962de3b1e73e6d8/e/a93e4edb635fdcd076b4d8c3 
+[CAD onshape v2](https://cad.onshape.com/documents/ccceb04a82170118997b362b/w/31ab41bc544e32196458eeba/e/11e34163ec09ffa5ecc34a18)
+
+[devlog](https://www.youtube.com/playlist?list=PL79kqjVnD2EPVIWg-ihbN_tPdFki3OzMf)
+
+![TOP](https://github.com/user-attachments/assets/d80f60b3-382a-46d7-87a8-ab0a4d900bd8)
 
 
 bom
